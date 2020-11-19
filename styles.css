@@ -1,0 +1,70 @@
+.home {
+  margin: auto;
+  width: 1440px;
+  font-family: Montserrat sans-serif;
+  background: no-repeat url(img/Rectangle.svg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+}
+
+.logo {
+  position: absolute;
+  width: 98px;
+  height: 37px;
+  left: 52px;
+  top: 36px;
+  font: normal 30px/37px Montserrat;
+  color: #fff;
+}
+
+.lg {
+  position: absolute;
+  width: 31px;
+  height: 25px;
+  left: 388px;
+  top: 42px;
+  font: normal 20px/24px Montserrat;
+  color: #fff;
+}
+
+.main {
+  margin: auto;
+  padding: 171px 176px 225px 798px;
+  background: left no-repeat url(img/petebellis.png);
+  background-size: 32%;
+  background-position: 220px 135px;;
+}
+
+.main__title {
+  font: 700 80px/82px Montserrat;
+  margin: auto;
+}
+
+.main__subtitle {
+  padding-bottom: 50px;
+  font: 400 15px/21px Montserrat;
+}
+
+.main__button {
+  position: relative;
+  margin-right: 50px;
+  color: #000;
+  text-decoration: none;
+  font: 500 13px/0px Montserrat, sans-serif;
+}
+
+.main__button:last-child {
+  margin-right: 0;
+}
+
+.main__button_a {
+  padding: 14px 41px 14px 41px;
+  outline: none;
+  border: 1.5px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+}
