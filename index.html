@@ -3,6 +3,7 @@
   <head>
     <meta cgarset ="utf-8">
       <title>My the final work</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
         <link rel="stylesheet" href="font.css">
         <link rel="stylesheet" href="styles.css">
@@ -10,8 +11,15 @@
   <body class="home">
       <header class="header">
         <div class="logo">LOCO</div>
-        <div class="lg">RU</div>
-        <nav cclass="menu__box"></nav>
+        <a class="lg">RU</a>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <div class="element"></div>
+          <nav cclass="menu__box"></nav>
+        </div>
       </header>
       <section class="main">
         <h1 class="main__title">Новая коллекция</h1>
@@ -24,46 +32,46 @@
         <a class="main__button main__button_a" href="#">ЧИТАТЬ ДАЛЬШЕ</a>
         <a class="main__button" href="#">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
       </section>
-      <div class="social">
-        <button class="sosisl__inst" href="#"></button>
-        <button class="sosisl__vk" href="#"></button>
-        <button class="sosisl__fb" href="#"></button>
-      </div>
-      <!-- <section>
-        <div>
-          <img>
-        </div>
-        <main>
-          <title>Кожаный клатч</title>
-          <subtitle>ОСЕННЯЯ КОЛЛЕКЦИЯ</subtitle>
-          <p>
+      <ul class="set">
+        <a href="https://www.instagram.com/?hl=ru" class="fa fa-instagram"></a>
+        <a href="https://vk.com" class="fa fa-vk"></a>
+        <a href="https://ru-ru.facebook.com" class="fa fa-facebook"></a>
+      </ul>
+      <section class="section__two">
+        <main class="main_section__two">
+          <subtitle class="title__two">Кожаный клатч</subtitle>
+          <p class="subtitle__two">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+          <p class="text__tow">
             Бесплатная доставка включена. Предложение действует на сайте loco.com
             и в магазинах до 18.09.2018. Для получения скидки в магазинах
             предъявите скриншот данного предложения. В магазинах предложение не
             суммируется с другими акциями, предложениями и распродажей.
           </p>
-          <element></element>
-          <h1>1990₽</h1>
-          <button></button>
-          <button>ДОБАВИТЬ В КОРЗИНУ</button>
-          <button>ДРУГИЕ ТОВАРЫ НА LOCO.COM</button>
+          <img class="bag_1" src="file:///C:/Users/ilya8/OneDrive/Документы/Kostikova_LOCO/img/bag_1.png">
+            <div class="element"></div>
+              <div class="element__circle element__circle_color1"></div>
+              <div class="element__circle2 element__circle_color2"></div>
+              <div class="element__circle element__circle_color3"></div>
+              <div class="element__circle element__circle_color4"></div>
+            </div>
+          <h1 class="price__two">1990₽</h1>
+          <button class="number">1</button>
+          <button class="klik_basket">ДОБАВИТЬ В КОРЗИНУ</button>
+          <button class="klik_product">ДРУГИЕ ТОВАРЫ НА LOCO.COM</button>
         </main>
       </section>
-      <section>
-        <div>
-          <img>
-        </div>
-        <main>
-          <title>Serene Total Look</title>
-          <subtitle>ОСЕННЯЯ КОЛЛЕКЦИЯ</subtitle>
+      <section class="section__three">
+        <main class="main__three">
+          <subtitle>Serene Total Look</subtitle>
+          <p>ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
           <p>
             Джинсы, свитер, обувь.
             В комплект также входит пакет ароматного чая и кружка.
           </p>
-          <button></button>
+          <button >1</button>
           <button>ДОБАВИТЬ В КОРЗИНУ</button>
           <button>ДРУГИЕ ТОВАРЫ НА LOCO.COM</button>
         </main>
-      </section> -->
+      </section>
   </body>
 </html>

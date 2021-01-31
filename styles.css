@@ -1,3 +1,7 @@
+#menu__toggle {
+  opacity: 0;
+}
+
 .home {
   margin: auto;
   width: 1440px;
@@ -17,7 +21,7 @@
   height: 37px;
   left: 52px;
   top: 36px;
-  font: normal 30px/37px Montserrat;
+  font: normal 30px/37px Montserrat, sans-serif;
   color: #fff;
 }
 
@@ -27,31 +31,104 @@
   height: 25px;
   left: 388px;
   top: 42px;
-  font: normal 20px/24px Montserrat;
+  font: normal 20px/24px Montserrat, sans-serif;
   color: #fff;
 }
 
+/* бургер-меню */
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 95.5%;
+  width: 35px;
+  height: 55px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #616161;
+}
+
+.menu__btn > span::after {
+  content: '';
+  top: -9px;
+}
+
+.element {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  Left: 1348px;
+  top: 0px;
+  background: #E5E5E5;
+}
+
+.element:hover {
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+/* основной блок */
+
 .main {
   margin: auto;
-  padding: 171px 176px 225px 798px;
+  padding: 171px 180px 40px 798px;
   background: left no-repeat url(img/petebellis.png);
   background-size: 32%;
-  background-position: 220px 135px;;
+  background-position: 220px 135px;
 }
 
 .main__title {
-  font: 700 80px/82px Montserrat;
+  font: 700 80px/82px Montserrat, sans-serif;
   margin: auto;
 }
 
 .main__subtitle {
   padding-bottom: 50px;
-  font: 400 15px/21px Montserrat;
+  font: 400 15px/21px Montserrat, sans-serif;
 }
 
 .main__button {
   position: relative;
-  margin-right: 50px;
+  margin-right: 40px;
   color: #000;
   text-decoration: none;
   font: 500 13px/0px Montserrat, sans-serif;
@@ -67,4 +144,175 @@
   border: 1.5px solid;
   border-radius: 1px;
   transition: 0.2s;
+}
+
+/* соцсети */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 70px;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-vk {
+  background: white;
+  color: black;
+}
+
+.fa-facebook:hover {
+  background: #3b5998;
+  color: white;
+  transition: .5s;
+}
+
+.fa-vk:hover {
+  background: #597da3;
+  color: white;
+  transition: .5s;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(130deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  color: white;
+  transition: .5s;
+}
+
+/* вторая секция */
+
+.section__two {
+  background: #FAE8E4;
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 900px;
+}
+
+.bag_1 {
+  transform: translate(-110%,0);
+  margin-top: -115%;
+  margin-bottom: -90%;
+}
+
+.main_section__two {
+  background: url(img/bag_2.png) no-repeat;
+  margin: auto;
+  padding: 171px 180px 20px 840px;
+  background-size: 28%;
+  background-position: 110px 195px;
+}
+
+.title__two {
+  font: bold 40px/41px Montserrat, sans-serif;
+}
+
+.subtitle__two {
+  font: bold 16px/16px Montserrat, sans-serif;
+  letter-spacing: 0.07em;
+  color: #000;
+  opacity: 0.5;
+}
+
+.text__tow {
+  font: normal 15px/21px Montserrat, sans-serif;
+  color: #000;
+  opacity: 0.5;
+  padding: 60px 40px 0 0;
+}
+
+.element__circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1026px;
+  top: 560px;
+  border-radius: 50%;
+}
+
+.element__circle2 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 976px;
+  top: 556px;
+  border-radius: 50%;
+}
+
+.element__circle_color1 {
+  background: #DEDEDE;
+  margin-left: -13%;
+}
+
+.element__circle_color2 {
+  background: #F29F9F;
+  margin-left: -90px;
+}
+
+.element__circle_color3 {
+  background: #A8BFF9;
+  margin-left: -90px;
+}
+
+.element__circle_color4 {
+  background: #90BD8F;
+  margin-left: -50px;
+}
+
+.price__two {
+  font: 700 40px/56px Montserrat, sans-serif;
+  padding-left: 220px;
+}
+
+.number {
+  padding: 16px 41px 16px 41px;
+  margin-right: 10px;
+  outline: none;
+  border: 1.5px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  background-color: #fff;
+  font: 500 13px/8px Montserrat, sans-serif;
+}
+
+.klik_basket {
+  padding: 16px 41px 16px 41px;
+  outline: none;
+  border: 1.5px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  background-color: #fff;
+  font: 500 13px/8px Montserrat, sans-serif;
+}
+
+.klik_product {
+  outline: none;
+  border: 0;
+  background: transparent;
+  margin-top: 30px;
+}
+
+/* третья секция */
+
+.section__three {
+  background: linear-gradient(90deg,#EBE3D8 20%, #000 20% 25%, #EBE3D8 25%);
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 1800px;
+}
+
+.main__three {
+  margin: auto;
+  padding: 180px 0 600px 798px;
+  background: left no-repeat url(img/photo3.png);
+  background-size: 55%;
+  background-position: 60px 180px;
 }
