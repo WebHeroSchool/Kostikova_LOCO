@@ -604,6 +604,10 @@ body {
     text-align:  justify;
   }
 
+  .fon__two {
+    padding: 30px 20px 30px 20px;
+  }
+
   .element__circle_color1 {
     margin: 50px 0 0 132px;
   }
@@ -691,16 +695,18 @@ body {
 
   .main__section_one {
     margin: auto;
-    padding: 440px 40px 40px 20px;
+    padding: 440px 40px 60px 20px;
     background: left no-repeat url(img/pete-bellis.png);
     background-size: 100%;
-    background-position: 0 60px;
+    background-position: 0 70px;
   }
 
   .section__one {
     background: none;
-    height: 550px;
-    width: 345px;
+    width: 376px;
+    height: 596px;
+    /* height: 550px;
+    width: 345px; */
   }
 
   .logo {
@@ -751,6 +757,151 @@ body {
 
   .arrow__right {
     display: none;
+  }
+
+  .section__two {
+    width: 375px;
+    height: 640px;
+    left: -1px;
+    top: 640px;
+  }
+
+  .main__section_two {
+    background: url(img/bag_1.png) no-repeat;
+    margin: auto;
+    padding: 280px 15px 15px 15px;
+    background-size: 60%;
+    background-position: 70px 10px;
+  }
+
+  .title__two {
+    font: bold 20px/20px Montserrat, sans-serif;
+  }
+
+  .subtitle__two {
+    font: bold 10px/10px Montserrat, sans-serif;
+    /* letter-spacing: 0.07em;
+    color: #000;
+    opacity: 0.5; */
+  }
+
+  .text__tow {
+    font: normal 11px/15px Montserrat, sans-serif;
+    /* color: #000;
+    opacity: 0.5; */
+    padding: 20px 0 0 0;
+  }
+
+  .element__circle_color1 {
+    background: #DEDEDE;
+    margin-left: -265%;
+    margin-top: -65px;
+  }
+
+  .element__circle_color2 {
+    background: #F29F9F;
+    margin-left: -240%;
+    margin-top: -65px;
+  }
+
+  .element__circle_color3 {
+    background: #A8BFF9;
+    margin-left: -240%;
+    margin-top: -65px;
+  }
+
+  .element__circle_color4 {
+    background: #90BD8F;
+    margin-left: -229%;
+    margin-top: -65px;
+  }
+
+  .price__two {
+    font: 700 25px/25px Montserrat, sans-serif;
+    padding-left: 220px;
+    margin-top: -180px;
+    margin-bottom: 40px;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .klik__basket {
+    margin-left: 25px;
+  }
+
+  .klik__product {
+    display: none;
+  }
+
+  .arrow__2 {
+    display: none;
+  }
+
+  .fon__two {
+    padding: 30px 20px;
+  }
+
+  .klik__basket {
+    padding: 10px 50px 10px 50px;
+    /* border: 1.5px solid;
+    border-radius: 1px;
+    font: 500 13px/8px Montserrat, sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000; */
+  }
+
+  .section__three {
+    background: linear-gradient(90deg,#EBE3D8 25%, #000 25% 37%, #EBE3D8 37%);
+    position: absolute;
+    width: 375px;
+    height: 650px;
+    top: 1280px;
+  }
+
+  .main__three {
+    margin: auto;
+    padding: 300px 35px 0 35px;
+    background: left no-repeat url(img/photo3.png), box-shadow: 0.4em 0.4em 20px rgba(122,122,122,0.5);
+    background-size: 90%;
+    background-position: 18px 65px;
+  }
+
+  .subtitle__three {
+    font: bold 20px/20px Montserrat, sans-serif;
+  }
+
+  .text__three {
+    font: bold 10px/10px Montserrat, sans-serif;
+  }
+
+  .text__for {
+    font: normal 9px/13px Montserrat, sans-serif;
+    padding: 10px 35% 20px 0;
+  }
+
+  .klik__product_1 {
+    font: 500 15px/18px Montserrat, sans-serif;
+    margin: 10px 20px 10px 80px;
+    /* margin-left: 80px; */
+    text-decoration: none;
+    color: #000;
+  }
+
+  .fon {
+    padding: 20px 10px 30px 10px;;
+  }
+
+  .klik__basket {
+    margin-left: 15px;
+  }
+
+  .arrow__3 div {
+    width: 120px;
+   margin-left: 140px;
+   margin-top: 40px;
   }
 
 
