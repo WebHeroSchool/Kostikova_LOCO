@@ -6,13 +6,8 @@ body {
   margin: 0;
 }
 
-/* .wrapper {
-  margin: auto;
-  width: 68%;
-} */
-
 .home {
-  font-family: Montserrat sans-serif;
+  font-family: montserrat sans-serif;
 }
 
 .header {
@@ -33,7 +28,7 @@ body {
   height: 37px;
   left: 52px;
   top: 36px;
-  font: normal 30px/37px Montserrat, sans-serif;
+  font: normal 30px/37px montserrat, sans-serif;
   color: #fff;
 }
 
@@ -43,7 +38,7 @@ body {
   height: 25px;
   left: 388px;
   top: 42px;
-  font: normal 20px/24px Montserrat, sans-serif;
+  font: normal 20px/24px montserrat, sans-serif;
   color: #fff;
 }
 
@@ -52,7 +47,7 @@ body {
   height: 8px;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
-  margin: 39px 0 0 29.5%;
+  margin: 45px 0 0 29.5%;
   transform: rotate(135deg);
 }
 
@@ -123,13 +118,13 @@ body {
 }
 
 .main__title {
-  font: 700 80px/82px Montserrat, sans-serif;
+  font: 700 80px/82px montserratbold, sans-serif;
   margin: auto;
 }
 
 .main__subtitle {
   padding: 0 0 40px 0;
-  font: 400 15px/21px Montserrat, sans-serif;
+  font: 400 15px/21px montserrat, sans-serif;
 }
 
 .main__button {
@@ -137,7 +132,7 @@ body {
   margin-right: 40px;
   color: #000;
   text-decoration: none;
-  font: 500 13px/0px Montserrat, sans-serif;
+  font: 500 13px/0px montserrat, sans-serif;
 }
 
 .main__button:last-child {
@@ -281,18 +276,18 @@ body {
 }
 
 .title__two {
-  font: bold 40px/41px Montserrat, sans-serif;
+  font: bold 40px/41px montserratbold, sans-serif;
 }
 
 .subtitle__two {
-  font: bold 16px/16px Montserrat, sans-serif;
+  font: bold 16px/16px montserratbold, sans-serif;
   letter-spacing: 0.07em;
   color: #000;
   opacity: 0.5;
 }
 
 .text__tow {
-  font: normal 15px/21px Montserrat, sans-serif;
+  font: normal 15px/21px montserrat, sans-serif;
   color: #000;
   opacity: 0.5;
   padding: 40px 40px 0 0;
@@ -337,7 +332,7 @@ body {
 }
 
 .price__two {
-  font: 700 40px/56px Montserrat, sans-serif;
+  font: 700 40px/56px montserratbold, sans-serif;
   padding-left: 220px;
 }
 
@@ -346,7 +341,7 @@ body {
   margin-right: 10px;
   border: 1.5px solid;
   border-radius: 1px;
-  font: 500 13px/8px Montserrat, sans-serif;
+  font: 500 13px/8px montserrat, sans-serif;
   text-decoration: none;
   color: #000;
 }
@@ -355,14 +350,14 @@ body {
   padding: 16px 41px 16px 41px;
   border: 1.5px solid;
   border-radius: 1px;
-  font: 500 13px/8px Montserrat, sans-serif;
+  font: 500 13px/8px montserrat, sans-serif;
   margin-left: 10px;
   text-decoration: none;
   color: #000;
 }
 
 .klik__product {
-  font: 500 13px/8px Montserrat, sans-serif;
+  font: 500 13px/8px montserrat, sans-serif;
   text-decoration: none;
   color: #000;
   margin-top: 20px;
@@ -453,26 +448,26 @@ body {
 }
 
 .subtitle__three {
-  font: bold 40px/41px Montserrat, sans-serif;
+  font: bold 40px/41px montserratbold, sans-serif;
   color: #000;
 }
 
 .text__three {
-  font: bold 16px/16px Montserrat, sans-serif;
+  font: bold 16px/16px montserratbold, sans-serif;
   letter-spacing: 0.07em;
   color: #000;
   opacity: 0.5;
 }
 
 .text__for {
-  font: normal 15px/21px Montserrat, sans-serif;
+  font: normal 15px/21px montserrat, sans-serif;
   color: #000;
   opacity: 0.5;
   padding: 20px 30% 20px 0;
 }
 
-.klik__product_1 {
-  font: 500 13px/8px Montserrat, sans-serif;
+.klik__product_one {
+  font: 500 13px/8px montserrat, sans-serif;
   margin-top: 20px;
   margin-left: 80px;
   text-decoration: none;
@@ -524,7 +519,7 @@ body {
 }
 
 .arrow__three:hover {
-  animation: arrow-3 1s linear infinite;
+  animation: arrow__three 1s linear infinite;
 }
 
 @keyframes arrow__three {
@@ -539,7 +534,7 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   .section__one {
     width: 1970px;
     height: 930px;
@@ -557,11 +552,11 @@ body {
   }
 
   .main__title {
-    font: 700 90px/92px Montserrat, sans-serif;
+    font: 700 90px/92px montserratbold, sans-serif;
   }
 
   .main__subtitle {
-    font: 400 17px/23px Montserrat, sans-serif;
+    font: 400 17px/23px montserrat, sans-serif;
   }
 
   .section__two {
@@ -570,9 +565,9 @@ body {
     top: 930px;
   }
 
-  .fon__two {
+  /* .fon__two {
     padding: 40px 20px 40px 50px;
-  }
+  } */
 
   .main__section_two {
     background: url(img/bag_2.png) no-repeat;
@@ -591,58 +586,60 @@ body {
   }
 
   .title__two {
-    font: bold 45px/46px Montserrat, sans-serif;
+    font: bold 45px/46px montserratbold, sans-serif;
   }
 
   .subtitle__two {
-    font: bold 22px/22px Montserrat, sans-serif;
+    font: bold 22px/22px montserratbold, sans-serif;
   }
 
   .text__tow {
-    font: normal 19px/25px Montserrat, sans-serif;
+    font: normal 19px/25px montserrat, sans-serif;
     text-align:  justify;
+    padding: 50px 0 0 0;
   }
 
   .fon__two {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 40px 30px 40px;
+    margin-bottom: 30px;
   }
 
   .element__circle_gray {
-    margin: 50px 0 0 132px;
+    margin-left: 160px;
   }
 
   .element__circle_red {
-    margin: 50px 0 0 220px;
+    margin-left: 250px;
   }
 
   .element__circle_blue {
-    margin: 50px 0 0 220px;
+    margin-left: 250px;
   }
 
   .element__circle_green {
-    margin: 50px 0 0 262px;
+    margin-left: 290px;
   }
 
   .price__two {
     margin-top: -5px;
     margin-bottom: 70px;
-    padding-left: 280px;
+    padding-left: 320px;
   }
 
   .number {
-    padding: 18px 43px;
+    padding: 18px 48px;
     margin-right: 20px;
-    font: 500 15px/10px Montserrat, sans-serif;
+    font: 500 15px/10px montserrat, sans-serif;
   }
 
   .klik__basket {
-    padding: 18px 43px;
-    font: 500 15px/10px Montserrat, sans-serif;
+    padding: 18px 55px;
+    font: 500 15px/10px montserrat, sans-serif;
     margin-left: 20px;
   }
 
   .klik__product {
-    font: 500 15px/10px Montserrat, sans-serif;
+    font: 500 15px/10px montserrat, sans-serif;
   }
 
   .arrow__two div {
@@ -665,20 +662,20 @@ body {
   }
 
   .subtitle__three {
-    font: bold 45px/46px Montserrat, sans-serif;
+    font: bold 45px/46px montserratbold, sans-serif;
   }
 
   .text__three {
-    font: bold 22px/22px Montserrat, sans-serif;
+    font: bold 22px/22px montserratbold, sans-serif;
   }
 
   .text__for {
-    font: normal 19px/25px Montserrat, sans-serif;
+    font: normal 19px/25px montserrat, sans-serif;
     padding: 40px 30% 40px 0;
   }
 
   .klik__product_one {
-    font: 500 15px/10px Montserrat, sans-serif;
+    font: 500 15px/10px montserrat, sans-serif;
     margin-top: 20px;
     margin-left: 100px;
   }
@@ -689,7 +686,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   .main__section_one {
     margin: auto;
     padding: 440px 40px 60px 20px;
@@ -726,7 +723,7 @@ body {
   }
 
   .main__title {
-    font: 700 50px/51px Montserrat, sans-serif;
+    font: 700 50px/51px montserratbold, sans-serif;
     margin: auto;
   }
 
@@ -770,15 +767,15 @@ body {
   }
 
   .title__two {
-    font: bold 20px/20px Montserrat, sans-serif;
+    font: bold 20px/20px montserratbold, sans-serif;
   }
 
   .subtitle__two {
-    font: bold 10px/10px Montserrat, sans-serif;
+    font: bold 10px/10px montserratbold, sans-serif;
   }
 
   .text__tow {
-    font: normal 11px/15px Montserrat, sans-serif;
+    font: normal 11px/15px montserrat, sans-serif;
     padding: 20px 0 0 0;
   }
 
@@ -807,7 +804,7 @@ body {
   }
 
   .price__two {
-    font: 700 25px/25px Montserrat, sans-serif;
+    font: 700 25px/25px montserratbold, sans-serif;
     padding-left: 220px;
     margin-top: -180px;
     margin-bottom: 40px;
@@ -854,20 +851,20 @@ body {
   }
 
   .subtitle__three {
-    font: bold 20px/20px Montserrat, sans-serif;
+    font: bold 20px/20px montserratbold, sans-serif;
   }
 
   .text__three {
-    font: bold 10px/10px Montserrat, sans-serif;
+    font: bold 10px/10px montserratbold, sans-serif;
   }
 
   .text__for {
-    font: normal 9px/13px Montserrat, sans-serif;
+    font: normal 9px/13px montserrat, sans-serif;
     padding: 10px 35% 20px 0;
   }
 
   .klik__product_one {
-    font: 500 15px/18px Montserrat, sans-serif;
+    font: 500 15px/18px montserrat, sans-serif;
     margin: 10px 20px 10px 80px;
     text-decoration: none;
     color: #000;
